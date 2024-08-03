@@ -10,7 +10,6 @@ function App() {
       <MyNavbar />
       <NavbarSecondary />
       <LandingPage />
-      <header className=""></header>
     </div>
   );
 }
