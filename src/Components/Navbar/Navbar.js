@@ -7,7 +7,12 @@ const MyNavbar = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" expanded={expanded}>
+    <Navbar
+      variant="dark"
+      expand="lg"
+      expanded={expanded}
+      className="custom-navbar"
+    >
       <Container>
         <Navbar.Brand href="#home">Carvana Logo</Navbar.Brand>
         <Navbar.Toggle
@@ -55,7 +60,7 @@ const MyNavbar = () => {
 
               <div className={`extra-links ${expanded ? "show" : "hide"}`}>
                 <Nav.Link href="#videos" onClick={() => setExpanded(false)}>
-                  VIDEOS 
+                  VIDEOS
                 </Nav.Link>
                 <Nav.Link href="#stories" onClick={() => setExpanded(false)}>
                   STORIES

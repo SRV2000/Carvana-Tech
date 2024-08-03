@@ -1,6 +1,11 @@
 /* src/Navbar.css */
+
+.custom-navbar {
+  background-color: #000000 !important;
+}
+
 .custom-offcanvas {
-  background-color: black !important; /* Set background color to black */
+  background-color: #000000 !important; /* Set background color to black */
   color: white; /* Optional: Set text color to white for better readability */
 }
 
@@ -31,5 +36,10 @@
   display: block;
 }
 
+.navbar-nav .nav-link {
+  margin-left: 15px; /* Adjust the value as needed */
+}
 
-
+.navbar-nav .nav-link:last-child {
+  margin-left: 0; /* Remove margin from the last link */
+}
