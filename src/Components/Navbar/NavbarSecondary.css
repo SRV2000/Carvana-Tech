@@ -1,0 +1,37 @@
+/* NavbarSecondary.css */
+
+.navbar-secondary {
+  background-color: black; /* Set the background to black */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+.navbar-secondary-list {
+  list-style-type: none; /* Remove the default list style */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Display items in a row */
+}
+
+.navbar-secondary-list li {
+  display: inline; /* Display list items inline */
+}
+
+.navbar-secondary-list a {
+  color: white; /* Set the text color to white */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px; /* Add some padding around the links */
+  font-family: Arial, sans-serif; /* Set a clean font */
+  font-size: 16px; /* Set a comfortable font size */
+}
+
+.navbar-secondary-list a:hover {
+  background-color: #ff6600; /* Add a hover effect with a slightly lighter background */
+  color: #fff; /* Slightly lighter text color on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+@media (max-width: 992px) {
+  .navbar-secondary {
+    display: none;
+  }
+}

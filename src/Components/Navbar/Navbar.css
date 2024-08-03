@@ -1,0 +1,35 @@
+/* src/Navbar.css */
+.custom-offcanvas {
+  background-color: black !important; /* Set background color to black */
+  color: white; /* Optional: Set text color to white for better readability */
+}
+
+.custom-offcanvas .offcanvas-header {
+  border-bottom: 1px solid #fff; /* Optional: Add a border for better separation */
+}
+
+.custom-offcanvas .nav-link {
+  color: white !important; /* Ensure nav links are visible on black background */
+}
+
+.custom-offcanvas .nav-link:hover {
+  color: #ff6600 !important; /* Optional: Change color on hover */
+}
+.custom-offcanvas .btn-close {
+  filter: invert(1); /* Invert the color of the close button icon */
+}
+
+.extra-links {
+  margin-top: 1rem; /* Optional spacing */
+}
+
+.extra-links.hide {
+  display: none;
+}
+
+.extra-links.show {
+  display: block;
+}
+
+
+
