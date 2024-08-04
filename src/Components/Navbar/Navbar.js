@@ -29,7 +29,9 @@ const MyNavbar = () => {
           className="custom-offcanvas"
         >
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title id="offcanvas-navbar-label">Menu</Offcanvas.Title>
+            <Offcanvas.Title id="offcanvas-navbar-label">
+              Carvana Menu
+            </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
