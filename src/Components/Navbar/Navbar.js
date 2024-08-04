@@ -1,17 +1,33 @@
-// src/Navbar.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap";
 import "./Navbar.css";
 
 const MyNavbar = () => {
   const [expanded, setExpanded] = useState(false);
 
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <Navbar
       variant="dark"
       expand="lg"
       expanded={expanded}
-      className="custom-navbar"
+      className={`custom-navbar ${scrolled ? "scrolled" : ""}`}
     >
       <Container>
         <Navbar.Brand href="#home">Carvana Logo</Navbar.Brand>
@@ -26,7 +42,7 @@ const MyNavbar = () => {
           placement="end"
           show={expanded}
           onHide={() => setExpanded(false)}
-          className="custom-offcanvas"
+          className={`custom-offcanvas ${scrolled ? "scrolled" : ""}`}
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id="offcanvas-navbar-label">

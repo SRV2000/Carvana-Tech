@@ -2,6 +2,14 @@
 
 .custom-navbar {
   background-color: #000000 !important;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color change */
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Ensure the navbar stays on top of other elements */
+}
+
+.custom-navbar.scrolled {
+  background-color: #ff6600 !important; /* Orange color when scrolled */
 }
 
 .custom-offcanvas {
@@ -18,9 +26,18 @@
   color: white !important; /* Ensure nav links are visible on black background */
 }
 
+.custom-navbar.scrolled .nav-link {
+  color: black !important; /* Black text color for nav links when scrolled */
+}
+
 .custom-offcanvas .nav-link:hover {
   color: #ff6600 !important; /* Optional: Change color on hover */
 }
+
+.custom-offcanvas.scrolled .nav-link:hover {
+  color: white !important; /* Optional: Change color on hover */
+}
+
 .custom-offcanvas .btn-close {
   filter: invert(1); /* Invert the color of the close button icon */
 }
