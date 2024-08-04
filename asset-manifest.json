@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Carvana-Tech/static/css/main.7bd3145e.css",
+    "main.js": "/Carvana-Tech/static/js/main.d1744d60.js",
+    "static/js/453.ed3810f9.chunk.js": "/Carvana-Tech/static/js/453.ed3810f9.chunk.js",
+    "static/media/Landingpage.jpg": "/Carvana-Tech/static/media/Landingpage.52cc753c9fb69b1627c4.jpg",
+    "static/media/LandingImageSmall.jpg": "/Carvana-Tech/static/media/LandingImageSmall.20b23a5bc57db4254de7.jpg",
+    "index.html": "/Carvana-Tech/index.html",
+    "main.7bd3145e.css.map": "/Carvana-Tech/static/css/main.7bd3145e.css.map",
+    "main.d1744d60.js.map": "/Carvana-Tech/static/js/main.d1744d60.js.map",
+    "453.ed3810f9.chunk.js.map": "/Carvana-Tech/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bd3145e.css",
+    "static/js/main.d1744d60.js"
+  ]
+}
