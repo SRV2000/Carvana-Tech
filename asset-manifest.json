@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Carvana-Tech/static/css/main.7bd3145e.css",
-    "main.js": "/Carvana-Tech/static/js/main.d1744d60.js",
-    "static/js/453.ed3810f9.chunk.js": "/Carvana-Tech/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/Carvana-Tech/static/css/main.b9d35ea2.css",
+    "main.js": "/Carvana-Tech/static/js/main.0e566b75.js",
+    "static/js/453.68693753.chunk.js": "/Carvana-Tech/static/js/453.68693753.chunk.js",
     "static/media/Landingpage.jpg": "/Carvana-Tech/static/media/Landingpage.52cc753c9fb69b1627c4.jpg",
+    "static/media/ledes-shock-original-500x600.png": "/Carvana-Tech/static/media/ledes-shock-original-500x600.4ce36b49e0aa1274bde5.png",
+    "static/media/ledes-shock-mis-ridesense-500x600.png": "/Carvana-Tech/static/media/ledes-shock-mis-ridesense-500x600.a418caf9c7d4b978513c.png",
+    "static/media/ledes-shock-adventure-500x600.png": "/Carvana-Tech/static/media/ledes-shock-adventure-500x600.524c5a5eaa24cc7f4a1c.png",
     "static/media/LandingImageSmall.jpg": "/Carvana-Tech/static/media/LandingImageSmall.20b23a5bc57db4254de7.jpg",
     "index.html": "/Carvana-Tech/index.html",
-    "main.7bd3145e.css.map": "/Carvana-Tech/static/css/main.7bd3145e.css.map",
-    "main.d1744d60.js.map": "/Carvana-Tech/static/js/main.d1744d60.js.map",
-    "453.ed3810f9.chunk.js.map": "/Carvana-Tech/static/js/453.ed3810f9.chunk.js.map"
+    "main.b9d35ea2.css.map": "/Carvana-Tech/static/css/main.b9d35ea2.css.map",
+    "main.0e566b75.js.map": "/Carvana-Tech/static/js/main.0e566b75.js.map",
+    "453.68693753.chunk.js.map": "/Carvana-Tech/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bd3145e.css",
-    "static/js/main.d1744d60.js"
+    "static/css/main.b9d35ea2.css",
+    "static/js/main.0e566b75.js"
   ]
 }
