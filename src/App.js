@@ -3,6 +3,7 @@ import "./App.css";
 import MyNavbar from "./Components/Navbar/Navbar";
 import NavbarSecondary from "./Components/Navbar/NavbarSecondary";
 import LandingPage from "./Components/MainPage/MainPage";
+import CardsContainer from "./Components/Page2/CardUI";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <MyNavbar />
       <NavbarSecondary />
       <LandingPage />
+      <CardsContainer />
     </div>
   );
 }
